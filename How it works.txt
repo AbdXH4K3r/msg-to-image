@@ -2,4 +2,6 @@ First of all, the program will install automatically the required libraries, aft
 hit ENTER, after that the program will ask you to fill some blanks, in the end it will ask you if you want to CONTINUE ? write
 "y" and hit ENTER. Choose ADD TEXT by writting "1" then hit ENTER, The first field is Im-image text, IT'S THE TEXT THAT WILL
 APPEAR IN THE IMAGE -NOT THE HIDDEN ONE-, after that it comes a field named HIDDEN MSG, THAT'S THE FIELD WHERE YOU SHOULD WRITE
-THE MSG YOU WANNA HIDE, then it comes the other things.
+THE MSG YOU WANNA HIDE, then it comes the other things. 
+
+In the end, after you finish all the steps, open the image you got in the Notepad, below you'll see the hidden msg you wrote.
