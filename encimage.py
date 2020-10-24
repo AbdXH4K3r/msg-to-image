@@ -75,6 +75,10 @@ if choice == "c":
                 matrix_print ("OK. Adios!")
                 quit()
 
+        if tools == "2":
+            matrix_print("Coming soon...")
+            input()
+
     else:
         preview = Canvas(root,width,height)
         preview.pack()
