@@ -79,19 +79,17 @@ if choice == "c":
             matrix_print("Coming soon...")
             input()
 
-    else:
-        preview = Canvas(root,width,height)
-        preview.pack()
-        saving = input("Save result? (y/n) : ")
-        if saving == "y":
-            img.save(filename)
-            matrix_print ("File Saved. Adios!")
-            quit()
 
-        if saving == "n":
-            matrix_print ("OK. Adios!")
-            quit()
+    if q == "n":
+        hiddenmsg = input("Hidden msg : ")
+        img.save(filename)
+        matrix_print ("File Saved. Adios!")
+        file = open(filename,'a')
+        file.write("\n\n\n[HIDDEN MSG]\n"+hiddenmsg)
+        file.close()
+        quit()
 
 
 else:
     quit()
+
